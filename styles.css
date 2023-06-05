@@ -57,14 +57,30 @@ nav h1 {
     background-color: #FBB04C;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
+    justify-content: space-around;
+    align-items: center;
     height: 80vh;
     width: 65vw;
 }
 
 .article {
     display: flex;
+    /* justify-content: ; */
+    /* justify-content: space-between; */
+}
+
+.article h1 {
+    position: relative;
+    top:150px;
+}
+
+.article-images {
+    display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 150px;
+}
+
+.article-images img {
+    height: 150px;
+    border: none;
 }
